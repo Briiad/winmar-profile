@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 // Import Components
-import { LandingPage } from '../../components'
+import { LandingPage, Intro, PurposeProject } from '../../components'
 
 export default function Home() {
   return (
@@ -17,6 +17,8 @@ export default function Home() {
       <LandingPage />
 
       {/* Section for ... */}
+      <Intro />
+      <PurposeProject />
 
       {/* Section for Footer */}
     </>

@@ -1,1 +1,5 @@
 export { default as LandingPage } from './LandingPage'
+export { default as Layout } from './Layout'
+export { default as Intro } from './Intro'
+export { default as PurposeProject } from './PurposeProject'
+export { default as VisionMissionPage } from './VisionMissionPage'
