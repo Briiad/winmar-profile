@@ -15,7 +15,7 @@ module.exports = {
         'primary':{
           '200' : '#4D9B67',
           '300' : '#237A5E',
-          '400' : '#00594F'
+          '400' : '#237A5E'
         },
         // Secondary Colors
       },
@@ -26,6 +26,10 @@ module.exports = {
       // Body Fonts
       'montserrat': ['Montserrat', 'sans-serif'],
     },
+    backgroundImage:{
+      'hero': "url('/Assets/Images/winmar2.svg')",
+      'hero2': "url('/Assets/Images/winmar5.svg')",
+    }
   },
   plugins: [],
 }

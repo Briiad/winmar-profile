@@ -6,7 +6,7 @@ const PurposeProject = () => {
       {/* Purpose */}
       <div className='w-full h-full grid grid-cols-2 gap-8'>
         <div className='col-span-1 p-24 text-primary-400'>
-          <h1 className='font-playfair text-6xl font-bold opacity-75'>We love What We Do.</h1>
+          <h1 className='font-playfair text-6xl font-bold opacity-75'>What's The Company All About.</h1>
           <div className=''>
             <div className='flex items-center justify-center mt-6'>
               <h1 className='w-12 h-12 flex justify-center items-center border border-primary-400 bg-primary-400 text-white rounded-full font-playfair font-bold text-xl p-6'>1</h1>
@@ -29,7 +29,7 @@ const PurposeProject = () => {
 
         {/* Purpose - Image */}
         <div className='col-span-1 flex items-center justify-center p-12 '>
-          <img src='../Assets/Images/winmar1.png' alt="we love what we do" className='w-[450px] h-[450px] object-cover' />
+          <img src='../Assets/Images/winmar1.jpg' alt="we love what we do" className='w-[540px] h-[450px] object-contain' />
         </div>
       </div>
       
