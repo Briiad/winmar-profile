@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (
@@ -23,11 +24,11 @@ const Navbar = () => {
           </p>
         </div>
         <Link href='/Kontak' className='flex items-center'>
-          <button className='border border-primary-400 rounded-sm'>
+          <motion.button whileHover={{scale: 1.15}} whileTap={{scale: 0.8}} className='border border-primary-400 rounded-sm hover:bg-primary-400 hover:text-white'>
             <p className='px-4 py-2 font-montserrat font-medium text-sm'>
               Contact Us
             </p>
-          </button>
+          </motion.button>
         </Link>
       </div>
       

@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const LandingPage = () => {
   return (
@@ -13,9 +14,9 @@ const LandingPage = () => {
             <div className='font-playfair flex flex-col items-center justify-center'>
               <h1 className='text-9xl border-b '>WINMAR</h1>
               <p className='mt-8 text-3xl font-montserrat'>PT . WIDJI NUSANTARA MAKMUR</p>
-              <button className='w-36 rounded-md border border-yellow-500 flex justify-center items-center mt-8'>
-                <p className='text-yellow-500 font-montserrat p-4'>Know More</p>
-              </button>
+              <motion.button whileHover={{scale: 1.1}} className='w-36 rounded-md border border-yellow-500 flex justify-center items-center mt-8 hover:bg-yellow-500 transition ease-in-out text-yellow-500 hover:text-white'>
+                <p className='font-montserrat p-4'>Know More</p>
+              </motion.button>
             </div>
             {/* <p className='font-montserrat py-8 w-1/2'>PT. Widji Nusantara Makmur is a national company engaged in agriculture and logistics based in Malang, Indonesia. </p> */}
           
