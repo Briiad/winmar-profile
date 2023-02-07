@@ -11,8 +11,8 @@ const VisionMissionDesc = () => {
         </div>
         {/* Mission Desc */}
         <div className='w-full md:w-1/2 h-full flex flex-col p-8'>
-          <h1 className='text-4xl md:text-6xl font-playfair text-primary-400'>Our Mission</h1>
-          <p className='mt-6 md:mt-12 text-justify text-sm md:text-md font-montserrat'>Contribute to Agricultural Growth and Development Through Agricultural Industry and Services Development by Conducting a Consistent and Reliable Business</p>
+          <h1 className='text-4xl md:text-6xl xl:text-8xl font-playfair text-primary-400'>Our Mission</h1>
+          <p className='mt-6 md:mt-12 text-justify text-sm md:text-md xl:text-xl font-montserrat'>Contribute to Agricultural Growth and Development Through Agricultural Industry and Services Development by Conducting a Consistent and Reliable Business</p>
         </div>
       </div>
 
@@ -24,8 +24,8 @@ const VisionMissionDesc = () => {
         </div>
         {/* Vission Desc */}
         <div className='w-full md:w-1/2 h-auto flex flex-col p-8'>
-          <h1 className='text-4xl md:text-6xl font-playfair text-primary-400'>Our Vision</h1>
-          <p className='mt-6 md:mt-12 text-justify text-sm md::text-md font-montserrat'>Be More Efficient and Competitive to Become an Agricultural Support Company</p>
+          <h1 className='text-4xl md:text-6xl xl:text-8xl font-playfair text-primary-400'>Our Vision</h1>
+          <p className='mt-6 md:mt-12 text-justify text-sm md:text-md xl:text-xl font-montserrat'>Be More Efficient and Competitive to Become an Agricultural Support Company</p>
         </div>
       </div>
     </section>
