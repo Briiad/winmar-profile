@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 
 import { openNav } from './animation/motion'
@@ -15,7 +16,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className='flex items-center justify-center'>
           {/* <h1 className='font-playfair font-bold text-3xl'>Winmar<span className='text-yellow-400'>.</span></h1> */}
-          <img src="/Assets/Images/logo_winmar.svg" alt="Logo Winmar" className='w-24 h-12' />
+          <Image width={120} height={120} src="/Assets/Images/logo_winmar.svg" alt="Logo Winmar" className='w-24 h-12' />
         </div>
 
         {/* Links */}
