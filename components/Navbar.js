@@ -47,7 +47,7 @@ const Navbar = () => {
         </AnimatePresence>
 
         {/* Bigger device */}
-        <div className='hidden md:flex items-center font-montserrat font-medium text-xs'>
+        <div className='hidden md:flex items-center font-montserrat font-medium text-xs md:text-sm'>
           <p className='mr-8'>
               <Link href='/'>About Winmar</Link>
           </p>

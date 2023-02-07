@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const PurposeProject = () => {
   return (
@@ -29,7 +30,7 @@ const PurposeProject = () => {
 
         {/* Purpose - Image */}
         <div className='col-span-1 flex items-center justify-center p-12 '>
-          <img src='../Assets/Images/winmar1.jpg' alt="we love what we do" className='w-50 h-50 md:w-[540px] md:h-[540px] xl:w-full xl:h-full object-contain xl:object-cover' />
+          <Image width={540} height={540} src='/Assets/Images/winmar1.jpg' alt="we love what we do" className='w-50 h-50 md:w-[540px] md:h-[540px] xl:w-full xl:h-full object-contain xl:object-cover' />
         </div>
       </div>
       

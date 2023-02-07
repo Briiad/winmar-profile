@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import * as AiIcons from 'react-icons/ai'
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
     <section className='w-full h-full p-8  bg-primary-400'>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4 py-8 font-montserrat text-white'>
         <div className='flex flex-col justify-center items-center md:block'>
-          <img src="/Assets/Images/logo2.svg" alt="Logo Winmar" className='w-36 h-12 object-cover mb-6' />
+          <Image width={36} height={12} src="/Assets/Images/logo2.svg" alt="Logo Winmar" className='w-36 h-12 object-cover mb-6' />
           <p className='w-full md:w-3/4 text-sm text-center md:text-justify'>PT. Widji Nusantara Makmur is a national company engaged in agriculture and logistics based in Malang, Indonesia.</p>
         </div>
         <div className='my-6 md:my-0'>
