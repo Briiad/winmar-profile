@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const LandingPage = () => {
   return (
     <section className='relative w-full h-auto'>
-      <section className="relative h-screen flex flex-col justify-center text-white p-32 z-0">
+      <section className="relative h-screen flex flex-col justify-center text-white p-8 md:p-32 z-0">
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
               <video className="min-w-full min-h-full absolute object-cover" autoPlay muted loop>
                 <source  src="/Assets/Videos/Hero-vid.mp4" type="video/mp4" />
@@ -12,8 +12,8 @@ const LandingPage = () => {
           </div>
           <div className="flex flex-col z-20 ">
             <div className='font-playfair flex flex-col items-center justify-center'>
-              <h1 className='text-9xl border-b '>WINMAR</h1>
-              <p className='mt-8 text-3xl font-montserrat'>PT . WIDJI NUSANTARA MAKMUR</p>
+              <h1 className='text-6xl md:text-9xl border-b '>WINMAR</h1>
+              <p className='mt-4 md:mt-8 text-xl md:text-3xl font-montserrat'>PT . WIDJI NUSANTARA MAKMUR</p>
               <motion.button whileHover={{scale: 1.1}} className='w-36 rounded-md border border-yellow-500 flex justify-center items-center mt-8 hover:bg-yellow-500 transition ease-in-out text-yellow-500 hover:text-white'>
                 <p className='font-montserrat p-4'>Know More</p>
               </motion.button>

@@ -14,38 +14,38 @@ const Kontak = () => {
       </Head>
 
       <section className='w-full h-full'>
-        <div className='w-full h-96 flex items-center justify-center bg-hero2 bg-cover bg-center'>
-          <h1 className='text-7xl font-playfair text-white z-10'>
+        <div className='w-full h-96 xl:h-[540px] flex items-center justify-center bg-hero2 bg-cover bg-center'>
+          <h1 className='text-6xl md:text-7xl xl:text-9xl font-playfair text-white z-10 text-center'>
             Get Connected With Us
             <span className='text-9xl text-yellow-400'>.</span>
           </h1>
         </div>
 
         <div className='w-full h-full'>
-          <div className='w-full h-full grid grid-cols-2 gap-8'>
+          <div className='w-full h-full grid grid-cols-1 md:grid-cols-2 gap-8'>
             <div className='col-span-1 bg-stone-100 p-12 font-montserrat text-primary-400 '>
-              <div className='flex items-center'>
-                <AiIcons.AiFillPhone className='text-5xl text-primary-400 mr-12' />
-                <div>
-                  <p>+6285257572142 EKO WIDIASTOPO</p>
+              <div className='flex flex-col md:flex-row items-center'>
+                <AiIcons.AiFillPhone className='text-3xl md:text-5xl text-primary-400 mb-4 md:mb-0 md:mr-12' />
+                <div className='text-sm md:text-base'>
+                  <p>+6285257572142 EKO W.</p>
                   <p>+628133386836 HAMAM</p>
                   <p>+628133491791 TONNY</p>
                 </div>
               </div>
 
-              <div className='flex items-center my-16'>
-                <AiIcons.AiOutlineMail className='text-5xl text-primary-400 mr-12' />
-                <a href='mailto:widji.nusantara.makmur@gmail.com'>widji.nusantara.makmur@gmail.com</a>
+              <div className='flex flex-col md:flex-row items-center my-8 md:my-16'>
+                <AiIcons.AiOutlineMail className='text-3xl md:text-5xl text-primary-400 mb-4 md:mb-0 md:mr-12' />
+                <a href='mailto:widji.nusantara.makmur@gmail.com' className='text-sm md:text-base'>widji.nusantara.makmur@gmail.com</a>
               </div>
 
-              <div className='flex items-center'>
-                <GoIcons.GoLocation className='text-5xl text-primary-400 mr-12' />
-                <p>Taman Kusuma 2 D18 Jl. Simp Kyai Yusuf Kota Malang</p>
+              <div className='flex flex-col md:flex-row items-center'>
+                <GoIcons.GoLocation className='text-3xl md:text-5xl text-primary-400 mb-4 md:mb-0 md:mr-12' />
+                <p className='text-sm md:text-base text-center md:text-left'>Taman Kusuma 2 D18 Jl. Simp Kyai Yusuf Kota Malang</p>
               </div>
             </div>
 
-            <div className='col-span-1 flex items-center justify-center'>
-              <img src="/Assets/Images/logo.svg" alt="Logo winmar" className='opacity-5' />
+            <div className='col-span-1 hidden md:flex items-center justify-center'>
+              <img src="/Assets/Images/logo.svg" alt="Logo winmar" className='opacity-20' />
             </div>
           </div>
         </div>

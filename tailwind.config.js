@@ -27,7 +27,7 @@ module.exports = {
       'montserrat': ['Montserrat', 'sans-serif'],
     },
     backgroundImage:{
-      'hero': "url('/Assets/Images/winmar2.svg')",
+      'hero': "url('/Assets/Images/winmar2.png')",
       'hero2': "url('/Assets/Images/winmar5.svg')",
     }
   },

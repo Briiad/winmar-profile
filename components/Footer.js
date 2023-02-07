@@ -4,12 +4,12 @@ import * as AiIcons from 'react-icons/ai'
 const Footer = () => {
   return (
     <section className='w-full h-full p-8  bg-primary-400'>
-      <div className='grid grid-cols-3 gap-4 py-8 font-montserrat text-white'>
-        <div>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-4 py-8 font-montserrat text-white'>
+        <div className='flex flex-col justify-center items-center md:block'>
           <img src="/Assets/Images/logo2.svg" alt="Logo Winmar" className='w-36 h-12 object-cover mb-6' />
-          <p className='w-3/4 text-sm text-justify'>PT. Widji Nusantara Makmur is a national company engaged in agriculture and logistics based in Malang, Indonesia.</p>
+          <p className='w-full md:w-3/4 text-sm text-center md:text-justify'>PT. Widji Nusantara Makmur is a national company engaged in agriculture and logistics based in Malang, Indonesia.</p>
         </div>
-        <div>
+        <div className='my-6 md:my-0'>
           <h1 className='text-xl font-bold mb-6'>About us.</h1>
           <div className='text-sm'>
             <p className='mb-4'>Contact</p>
