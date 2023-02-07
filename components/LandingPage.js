@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const LandingPage = () => {
   return (
-    <section className='relative w-full h-auto'>
+    <section className='relative w-full h-auto z-0'>
       <section className="relative h-screen flex flex-col justify-center text-white p-8 md:p-32 z-0">
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
               <video className="min-w-full min-h-full absolute object-cover" autoPlay muted loop>
