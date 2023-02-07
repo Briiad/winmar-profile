@@ -21,9 +21,9 @@ const Kontak = () => {
           </h1>
         </div>
 
-        <div className='w-full h-full'>
+        <div className='w-full h-full bg-secondary'>
           <div className='w-full h-full grid grid-cols-1 md:grid-cols-2 gap-8'>
-            <div className='col-span-1 bg-stone-100 p-12 font-montserrat text-primary-400 '>
+            <div className='col-span-1 bg-secondary p-12 font-montserrat text-primary-400 '>
               <div className='flex flex-col md:flex-row items-center'>
                 <AiIcons.AiFillPhone className='text-3xl md:text-5xl text-primary-400 mb-4 md:mb-0 md:mr-12' />
                 <div className='text-sm md:text-base'>
