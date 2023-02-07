@@ -8,7 +8,7 @@ const VisionMissionDesc = () => {
       <div className='w-full h-full p-0 md:pt-48 md:px-36 md:py-12 flex items-center'>
         {/* Mission Image */}
         <div className='w-1/2 h-auto hidden md:flex items-center justify-center'>
-          <Image width={540} height={540} src="../Assets/Images/winmar3.png" alt="Vision Mission Page Hero Image" className='w-1/2 h-1/2 xl:w-3/4 xl:h-3/4 object-cover' />
+          <Image width={540} height={540} src="/Assets/Images/winmar3.png" alt="Vision Mission Page Hero Image" className='w-1/2 h-1/2 xl:w-3/4 xl:h-3/4 object-cover' />
         </div>
         {/* Mission Desc */}
         <div className='w-full md:w-1/2 h-full flex flex-col p-8'>
@@ -21,7 +21,7 @@ const VisionMissionDesc = () => {
       <div className='w-full h-full p-0 md:pt-48 md:px-36 md:py-12 flex items-center'>
         {/* Vission Image */}
         <div className='md:w-1/2 h-auto hidden md:flex items-center justify-center'>
-          <Image width={540} height={540} src="../Assets/Images/winmar4.png" alt="Vision Mission Page Hero Image" className='w-1/2 h-1/2 xl:w-3/4 xl:h-3/4 object-cover' />
+          <Image width={540} height={540} src="/Assets/Images/winmar4.png" alt="Vision Mission Page Hero Image" className='w-1/2 h-1/2 xl:w-3/4 xl:h-3/4 object-cover' />
         </div>
         {/* Vission Desc */}
         <div className='w-full md:w-1/2 h-auto flex flex-col p-8'>

@@ -10,7 +10,7 @@ const VisiMisi = () => {
         <title>Visi dan Misi - Widji Nusantara Makmur</title>
         <meta name="description" content="Visi dan Misi of WINMAR" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       {/* Vision and Mission Page */}

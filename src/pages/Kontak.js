@@ -10,7 +10,7 @@ const Kontak = () => {
         <title>Kontak - Widji Nusantara Makmur</title>
         <meta name="description" content="Contacts of WINMAR" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <section className='w-full h-full pt-24 md:pt-0 bg-secondary'>
