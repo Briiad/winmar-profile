@@ -6,7 +6,7 @@ const PurposeProject = () => {
       {/* Purpose */}
       <div className='w-full h-full grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8'>
         <div className='col-span-1 p-12 md:p-24 text-primary-400'>
-          <h1 className='font-playfair text-4xl md:text-6xl font-bold opacity-75'>What's The Company All About.</h1>
+          <h1 className='font-playfair text-4xl md:text-6xl font-bold opacity-75'>What is The Company All About.</h1>
           <div>
             <div className='flex items-center justify-start mt-6'>
               <h1 className='w-4 h-4 md:w-12 md:h-12 flex justify-center items-center border border-primary-400 bg-primary-400 text-white rounded-full font-playfair font-bold text-md md:text-xl p-4 md:p-6'>1</h1>
