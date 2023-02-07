@@ -13,9 +13,9 @@ const Kontak = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section className='w-full h-full pt-24'>
+      <section className='w-full h-full pt-24 md:pt-0 bg-secondary'>
         <div className='w-full h-96 xl:h-[540px] flex items-center justify-center bg-hero2 bg-cover bg-center'>
-          <h1 className='text-6xl md:text-7xl xl:text-9xl font-playfair text-white z-10 text-center'>
+          <h1 className='text-6xl md:text-7xl xl:text-9xl font-playfair text-secondary z-10 text-center'>
             Get Connected With Us
             <span className='text-9xl text-yellow-400'>.</span>
           </h1>

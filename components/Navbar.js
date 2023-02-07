@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className='fixed md:relative w-full h-24 z-50 flex justify-center items-center bg-white shadow-md'>
+    <nav className='fixed md:relative w-full h-24 z-50 flex justify-center items-center bg-secondary shadow-md'>
       <div className='container mx-auto px-8 py-4 flex justify-between text-primary-400 '>
         {/* Logo */}
         <div className='flex items-center justify-center'>
@@ -22,7 +22,7 @@ const Navbar = () => {
         <HamburgerNav toggle={() => setIsOpen(!isOpen)} isOpen={isOpen} />
         <AnimatePresence>
           {isOpen &&
-            <motion.div className='absolute md:hidden grid grid-rows-5 gap-2 top-0 right-0 h-96 p-8 w-3/4 bg-primary-400 text-white' variants={openNav} initial="hidden" animate="visible" exit="exit">
+            <motion.div className='absolute md:hidden grid grid-rows-5 gap-2 top-0 right-0 h-96 p-8 w-3/4 bg-primary-400 text-secondary' variants={openNav} initial="hidden" animate="visible" exit="exit">
               <div className='row-span-1'></div>
               <div className='row-span-3 flex flex-col items-center font-montserrat font-medium text-sm'>
                 <p className=''>
@@ -36,7 +36,7 @@ const Navbar = () => {
                 </p>
               </div>
               <Link href='/Kontak' className='row-span-1 flex items-center justify-center'>
-                <motion.button whileHover={{scale: 1.15}} whileTap={{scale: 0.8}} className='border border-white rounded-sm hover:bg-white hover:text-primary-400'>
+                <motion.button whileHover={{scale: 1.15}} whileTap={{scale: 0.8}} className='border border-secondary rounded-sm hover:bg-secondary hover:text-primary-400'>
                   <p className='px-4 py-2 font-montserrat font-medium text-sm'>
                     Contact Us
                   </p>
@@ -59,7 +59,7 @@ const Navbar = () => {
           </p>
         </div>
         <Link href='/Kontak' className='hidden md:flex items-center'>
-          <motion.button whileHover={{scale: 1.15}} whileTap={{scale: 0.8}} className='border border-primary-400 rounded-sm hover:bg-primary-400 hover:text-white'>
+          <motion.button whileHover={{scale: 1.15}} whileTap={{scale: 0.8}} className='border border-primary-400 rounded-sm hover:bg-primary-400 hover:text-secondary'>
             <p className='px-4 py-2 font-montserrat font-medium text-sm'>
               Contact Us
             </p>

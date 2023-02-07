@@ -18,6 +18,7 @@ module.exports = {
           '400' : '#237A5E'
         },
         // Secondary Colors
+        'secondary': '#FFFFF0'
       },
     },
     fontFamily: {

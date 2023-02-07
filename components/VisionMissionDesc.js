@@ -2,7 +2,7 @@ import React from 'react'
 
 const VisionMissionDesc = () => {
   return (
-    <section>
+    <section className='w-full h-full bg-secondary'>
       {/* Mission */}
       <div className='w-full h-full p-0 md:pt-48 md:px-36 md:py-12 flex items-center'>
         {/* Mission Image */}

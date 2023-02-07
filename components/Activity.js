@@ -10,7 +10,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Activity = () => {
   return (
-    <section className='relative w-full h-full'>
+    <section className='relative w-full h-full bg-secondary'>
       <h1 className='flex items-center justify-center font-playfair font-bold text-6xl md:text-7xl text-center md:text-left text-primary-400 pt-12'>THE PROJECTS.</h1>
       <Swiper
         spaceBetween={30}
@@ -26,7 +26,7 @@ const Activity = () => {
           <div className='w-full h-full p-4 md:py-24 md:px-12 grid grid-cols-1 md:grid-cols-2 gap-12'>
             <div className='col-span-1 flex flex-col'>
               <h1 className='font-montserrat font-bold opacity-70 text-4xl md:text-6xl text-primary-400'>Corn Seed Projects.</h1>
-              <p className='p-0 pt-6 md:pt-0 md:py-8 md:pr-12 font-montserrat text-sm md:text-md text-justify text-primary-400'>
+              <p className='p-0 pt-6 md:py-8 md:pr-12 font-montserrat text-sm md:text-md text-justify text-primary-400'>
                 Hybrid corn seed projects involve the creation of new corn varieties by crossing two genetically different inbred lines of corn. This results in offspring that display improved traits, such as higher yields, improved pest and disease resistance, and better adaptation to different growing conditions, compared to the parent plants.
               </p>
 
@@ -66,7 +66,7 @@ const Activity = () => {
           <div className='w-full h-full p-4 md:py-24 md:px-12 grid grid-cols-1 md:grid-cols-2 gap-12'>
             <div className='col-span-1 flex flex-col'>
               <h1 className='font-montserrat font-bold opacity-70 text-4xl md:text-6xl text-primary-400'>Vegetable Seed Projects.</h1>
-              <p className='p-0 pt-6 md:pt-0 md:py-8 md:pr-12 font-montserrat text-sm md:text-md text-justify text-primary-400'>
+              <p className='p-0 pt-6 md:py-8 md:pr-12 font-montserrat text-sm md:text-md text-justify text-primary-400'>
                 Hybrid vegetable seed projects involve the development and production of new and improved varieties of hybrid vegetable seeds. These projects are similar to hybrid corn seed projects in that they involve the crossing of two genetically different parent plants to produce offspring with improved traits.
               </p>
             </div>
@@ -105,7 +105,7 @@ const Activity = () => {
           <div className='w-full h-full p-4 md:py-24 md:px-12 grid grid-cols-1 md:grid-cols-2 gap-12'>
             <div className='col-span-1 flex flex-col'>
               <h1 className='font-montserrat font-bold opacity-70 text-4xl md:text-6xl text-primary-400'>Processing Units.</h1>
-              <p className='p-0 pt-6 md:pt-0 md:py-8 md:pr-12 font-montserrat text-sm md:text-md text-justify text-primary-400'>Our Proccessing Site located at <span className='font-bold'>Kediri, East Java.</span> Site processing for hybrid seed is a critical aspect of the production of hybrid seeds, and it is essential for ensuring the quality and consistency of the final product. The success of hybrid seed production depends on the efficient and effective execution of the various steps involved in site processing.</p>
+              <p className='p-0 pt-6 md:py-8 md:pr-12 font-montserrat text-sm md:text-md text-justify text-primary-400'>Our Proccessing Site located at <span className='font-bold'>Kediri, East Java.</span> Site processing for hybrid seed is a critical aspect of the production of hybrid seeds, and it is essential for ensuring the quality and consistency of the final product. The success of hybrid seed production depends on the efficient and effective execution of the various steps involved in site processing.</p>
             </div>
 
             <div className='col-span-1 relative h-full w-full'>

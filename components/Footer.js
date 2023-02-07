@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import * as AiIcons from 'react-icons/ai'
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
         <div className='my-6 md:my-0'>
           <h1 className='text-xl font-bold mb-6'>About us.</h1>
           <div className='text-sm'>
-            <p className='mb-4'>Contact</p>
+            <p className='mb-4'><Link href='/Kontak'>Contact</Link></p>
             <p>License & Legal Documents</p>
           </div>
         </div>
