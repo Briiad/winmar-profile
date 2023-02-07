@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Image from 'next/image'
 import * as AiIcons from 'react-icons/ai'
 import * as GoIcons from 'react-icons/go'
 
@@ -45,7 +46,7 @@ const Kontak = () => {
             </div>
 
             <div className='col-span-1 hidden md:flex items-center justify-center'>
-              <img src="/Assets/Images/logo.svg" alt="Logo winmar" className='opacity-20' />
+              <Image width={540} height={540} src="/Assets/Images/logo.svg" alt="Logo winmar" className='opacity-20' />
             </div>
           </div>
         </div>

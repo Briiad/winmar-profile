@@ -20,10 +20,10 @@ const CoreStrength = () => {
 
       <div className='col-span-1 w-full h-full flex flex-col'>
         <div className='flex justify-center'>
-          <Image width={960} height={540} src='/Assets/Images/winmarteam1.jpeg' alt="team 1" className='w-52 h-52 xl:w-72 xl:h-72 border-2 shadow-xl border-primary-400 rounded-full object-cover flex justify-end' />
-          <Image width={960} height={540} src='/Assets/Images/winmarteam3.jpeg' alt="team 1" className='w-32 h-32 xl:w-48 xl:h-48 border-2 shadow-xl border-primary-400 rounded-full object-cover flex justify-end' />          
+          <Image width={540} height={540} src='/Assets/Images/winmarteam1.jpeg' alt="team 1" className='w-52 h-52 xl:w-72 xl:h-72 border-2 shadow-xl border-primary-400 rounded-full object-cover flex justify-end' />
+          <Image width={320} height={320} src='/Assets/Images/winmarteam3.jpeg' alt="team 1" className='w-32 h-32 xl:w-48 xl:h-48 border-2 shadow-xl border-primary-400 rounded-full object-cover flex justify-end' />          
         </div>
-        <Image width={960} height={540} src='/Assets/Images/winmarteam2.jpeg' alt="team 2" className='w-72 h-72 xl:w-96 xl:h-96 border-2 shadow-xl border-primary-400 rounded-full object-cover' />
+        <Image width={640} height={640} src='/Assets/Images/winmarteam2.jpeg' alt="team 2" className='w-72 h-72 xl:w-96 xl:h-96 border-2 shadow-xl border-primary-400 rounded-full object-cover' />
       </div>
 
       {/* For Bigger Device */}

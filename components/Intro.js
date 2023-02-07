@@ -12,7 +12,7 @@ const Intro = () => {
       </div>
 
       {/* Winmar Intro */}
-      <div className='w-full h-full p-8 md:p-24 xl:p-36 grid grid-cols-1 md:grid-cols-3 gap-12'>
+      <div className='w-full h-full p-8 md:p-18 2xl:p-36 grid grid-cols-1 md:grid-cols-3 gap-12'>
         <motion.div whileHover={{scale: 1.1,}} className='group col-span-1 w-full h-96 flex flex-col items-center justify-center bg-secondary hover:bg-primary-400 rounded-2xl shadow-md p-12 border border-primary-400 hover:border-none transition ease-in-out'>
           <GiIcons.GiCorn className='text-8xl text-primary-400 group-hover:text-secondary border border-primary-400 group-hover:border-secondary p-4 rounded-full transition ease-in-out'/>
           <p className='font-montserrat text-center font-bold text-2xl mt-6 text-primary-400 group-hover:text-secondary transition ease-in-out'>Supplying Hybrid Corn Seeds</p>          
