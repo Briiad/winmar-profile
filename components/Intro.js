@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <section className='w-full h-auto p-12'>
       <div className='w-full h-auto p-8 md:px-36 md:pt-12 text-center'>
-        <h1 className='font-playfair font-bold text-7xl text-primary-400'>The Product.</h1>
+        <h1 className='font-playfair font-bold text-6xl md:text-7xl text-primary-400'>The Product.</h1>
       </div>
 
       {/* Winmar Intro */}

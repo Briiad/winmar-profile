@@ -23,7 +23,7 @@ const Navbar = () => {
         <AnimatePresence>
           {isOpen &&
             <motion.div className='absolute md:hidden grid grid-rows-5 gap-2 top-0 right-0 h-96 p-8 w-3/4 bg-primary-400 text-white' variants={openNav} initial="hidden" animate="visible" exit="exit">
-              <div className='row-span-2'></div>
+              <div className='row-span-1'></div>
               <div className='row-span-3 flex flex-col items-center font-montserrat font-medium text-sm'>
                 <p className=''>
                   <Link href='/'>About Winmar</Link>
@@ -35,8 +35,8 @@ const Navbar = () => {
                   <Link href='Produk'> Products </Link>
                 </p>
               </div>
-              <Link href='/Kontak' className='hidden md:flex items-center'>
-                <motion.button whileHover={{scale: 1.15}} whileTap={{scale: 0.8}} className='border border-primary-400 rounded-sm hover:bg-primary-400 hover:text-white'>
+              <Link href='/Kontak' className='row-span-1 flex items-center justify-center'>
+                <motion.button whileHover={{scale: 1.15}} whileTap={{scale: 0.8}} className='border border-white rounded-sm hover:bg-white hover:text-primary-400'>
                   <p className='px-4 py-2 font-montserrat font-medium text-sm'>
                     Contact Us
                   </p>

@@ -11,8 +11,8 @@ const Produk = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section className='w-full h-screen flex items-center justify-center'>
-        <h1 className='text-9xl font-playfair text-primary-400'>
+      <section className='w-full h-screen flex items-center justify-center pt-24'>
+        <h1 className='text-6xl md:text-9xl font-playfair text-center text-primary-400'>
           COMING SOON!
         </h1>
       </section>

@@ -13,7 +13,7 @@ const LandingPage = () => {
           <div className="flex flex-col z-20 ">
             <div className='font-playfair flex flex-col items-center justify-center'>
               <h1 className='text-6xl md:text-9xl border-b '>WINMAR</h1>
-              <p className='mt-4 md:mt-8 text-xl md:text-3xl font-montserrat'>PT . WIDJI NUSANTARA MAKMUR</p>
+              <p className='mt-4 md:mt-8 text-xl md:text-3xl font-montserrat text-center'>PT . WIDJI NUSANTARA MAKMUR</p>
               <motion.button whileHover={{scale: 1.1}} className='w-36 rounded-md border border-yellow-500 flex justify-center items-center mt-8 hover:bg-yellow-500 transition ease-in-out text-yellow-500 hover:text-white'>
                 <p className='font-montserrat p-4'>Know More</p>
               </motion.button>
