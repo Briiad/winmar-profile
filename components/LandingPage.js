@@ -1,5 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import * as AiIcons from 'react-icons/ai'
+
+import { idleArrow } from './animation/motion'
 
 const LandingPage = () => {
   return (
@@ -7,15 +10,15 @@ const LandingPage = () => {
       <section className="relative h-screen flex flex-col justify-center text-secondary p-8 md:p-32 z-0">
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
               <video className="min-w-full min-h-full absolute object-cover" autoPlay muted loop>
-                <source  src="/Assets/Videos/Hero-vid.mp4" type="video/mp4" />
+                <source  src="/Assets/Videos/hero.mp4" type="video/mp4" />
               </video>
           </div>
           <div className="flex flex-col z-20 ">
             <div className='font-playfair flex flex-col items-center justify-center'>
               <h1 className='text-6xl md:text-9xl border-b '>WINMAR</h1>
               <p className='mt-4 md:mt-8 text-xl md:text-3xl font-montserrat text-center'>PT . WIDJI NUSANTARA MAKMUR</p>
-              <motion.button whileHover={{scale: 1.1}} className='w-36 rounded-md border border-yellow-500 flex justify-center items-center mt-8 hover:bg-yellow-500 transition ease-in-out text-yellow-500 hover:text-secondary'>
-                <p className='font-montserrat p-4'>Know More</p>
+              <motion.button whileHover={{scale: 1.1}} variants={idleArrow} animate="visible" className='w-36 md:w-48  flex justify-center items-center mt-8 '>
+                <p className='p-4 rounded-full border border-yellow-500 hover:bg-yellow-500 transition ease-in-out text-yellow-500 hover:text-secondary text-xl md:text-4xl'><AiIcons.AiOutlineArrowDown /></p>
               </motion.button>
             </div>
             {/* <p className='font-montserrat py-8 w-1/2'>PT. Widji Nusantara Makmur is a national company engaged in agriculture and logistics based in Malang, Indonesia. </p> */}
@@ -23,14 +26,6 @@ const LandingPage = () => {
           </div>
           <div className='absolute top-0 left-0 w-full h-full overflow-hidden z-10 bg-black opacity-70'></div>
       </section>
-      
-
-      {/* SVG Divider */}
-      {/* <div className="absolute -bottom-1 left-0 w-full overflow-hidden leading-none rotate-180 z-10">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className='relative block w-full h-[150px]'>
-          <path d="M1200,0H0V120H281.94C572.9,116.24,602.45,3.86,602.45,3.86h0S632,116.24,923,120h277Z" className="fill-white"></path>
-        </svg>
-      </div> */}
     </section>
   )
 }

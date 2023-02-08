@@ -30,3 +30,14 @@ export const openNav = {
     }
   },
 }
+
+export const idleArrow = {
+  visible: {
+    y:[0, 80, 0],
+    transition: {
+      duration: 3,
+      ease:'easeInOut',
+      repeat: Infinity,
+    }
+  }
+}

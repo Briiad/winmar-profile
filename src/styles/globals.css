@@ -9,3 +9,7 @@
   margin: 0;
   padding: 0;
 }
+
+.swiper-pagination-bullet-active {
+  background-color: #eab308 !important;
+}

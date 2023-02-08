@@ -17,6 +17,15 @@ import doc12 from '/public/Assets/Images/Documentations/doc12.jpeg'
 import doc13 from '/public/Assets/Images/Documentations/doc13.jpeg'
 import doc14 from '/public/Assets/Images/Documentations/doc14.jpeg'
 import doc15 from '/public/Assets/Images/Documentations/doc15.jpg'
+import doc16 from '/public/Assets/Images/Documentations/doc16.jpeg'
+import doc17 from '/public/Assets/Images/Documentations/doc17.jpeg'
+import doc18 from '/public/Assets/Images/Documentations/doc18.jpeg'
+import doc19 from '/public/Assets/Images/Documentations/doc19.jpeg'
+import doc20 from '/public/Assets/Images/Documentations/doc20.jpeg'
+import doc21 from '/public/Assets/Images/Documentations/doc21.jpeg'
+import doc22 from '/public/Assets/Images/Documentations/doc22.jpeg'
+import doc23 from '/public/Assets/Images/Documentations/doc23.jpeg'
+import doc24 from '/public/Assets/Images/Documentations/doc24.jpeg'
 
 const Documentation = () => {
   return (
@@ -40,6 +49,15 @@ const Documentation = () => {
         <motion.div whileHover={{scale: 1.05}}><Image src={doc13} alt="do image" className='shadow-lg' /></motion.div>
         <motion.div whileHover={{scale: 1.05}}><Image src={doc14} alt="do image" className='shadow-lg' /></motion.div>
         <motion.div whileHover={{scale: 1.05}}><Image src={doc15} alt="doc image" className='shadow-lg' /></motion.div>
+        <motion.div whileHover={{scale: 1.05}}><Image src={doc16} alt="doc image" className='shadow-lg' /></motion.div>
+        <motion.div whileHover={{scale: 1.05}}><Image src={doc17} alt="doc image" className='shadow-lg' /></motion.div>
+        <motion.div whileHover={{scale: 1.05}}><Image src={doc18} alt="doc image" className='shadow-lg' /></motion.div>
+        <motion.div whileHover={{scale: 1.05}}><Image src={doc19} alt="doc image" className='shadow-lg' /></motion.div>
+        <motion.div whileHover={{scale: 1.05}}><Image src={doc20} alt="doc image" className='shadow-lg' /></motion.div>
+        <motion.div whileHover={{scale: 1.05}}><Image src={doc21} alt="doc image" className='shadow-lg' /></motion.div>
+        <motion.div whileHover={{scale: 1.05}}><Image src={doc22} alt="doc image" className='shadow-lg' /></motion.div>
+        <motion.div whileHover={{scale: 1.05}}><Image src={doc23} alt="doc image" className='shadow-lg' /></motion.div>
+        <motion.div whileHover={{scale: 1.05}}><Image src={doc24} alt="doc image" className='shadow-lg' /></motion.div>
       </div>
       
     </section>
