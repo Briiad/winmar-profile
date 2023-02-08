@@ -68,7 +68,7 @@ const CoreStrength = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <Image width={960} height={960} src='/Assets/Images/winmarteam5.jpg'  alt='the teams'className='w-56 h-48 md:w-[540px] md:h-96 object-cover' />
+            <Image width={960} height={960} src='/Assets/Images/winmarteam5.JPG'  alt='the teams'className='w-56 h-48 md:w-[540px] md:h-96 object-cover' />
           </SwiperSlide>
         </Swiper>
       </div>
