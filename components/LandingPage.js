@@ -24,7 +24,7 @@ const LandingPage = () => {
             {/* <p className='font-montserrat py-8 w-1/2'>PT. Widji Nusantara Makmur is a national company engaged in agriculture and logistics based in Malang, Indonesia. </p> */}
           
           </div>
-          <div className='absolute top-0 left-0 w-full h-full overflow-hidden z-10 bg-black opacity-70'></div>
+          <div className='absolute top-0 left-0 w-full h-full overflow-hidden z-10 bg-primary-400 opacity-60'></div>
       </section>
     </section>
   )
