@@ -3,14 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
     "export": "next export",
     "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "13.1.5",
     "@react-spring/web": "^9.6.1",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.5",
