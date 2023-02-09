@@ -36,7 +36,7 @@ const Kontak = () => {
 
               <div className='flex flex-col md:flex-row items-center my-8 md:my-16'>
                 <AiIcons.AiOutlineMail className='text-3xl md:text-5xl text-primary-400 mb-4 md:mb-0 md:mr-12' />
-                <a href='mailto:widji.nusantara.makmur@gmail.com' className='text-sm md:text-base'>widji.nusantara.makmur@gmail.com</a>
+                <a href='mailto:widji.nusantara.makmur@winmarseed.com' className='text-sm md:text-base'>widji.nusantara.makmur@winmarseed.com</a>
               </div>
 
               <div className='flex flex-col md:flex-row items-center'>
