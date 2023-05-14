@@ -60,6 +60,9 @@ const Activity = () => {
                 <SwiperSlide className='p-4 md:p-8'>
                   <Image width={960} height={540} src='/Assets/Images/Activity/corn5.jpg' alt='Processing Unit' className='w-[540px] h-96 object-cover'/>
                 </SwiperSlide>
+                <SwiperSlide className='p-4 md:p-8'>
+                  <Image width={960} height={540} src='/Assets/Images/Activity/corn6.jpeg' alt='Processing Unit' className='w-[540px] h-96 object-cover'/>
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
@@ -135,6 +138,12 @@ const Activity = () => {
                 </SwiperSlide>
                 <SwiperSlide className='p-4 md:p-8'>
                   <Image width={960} height={540} src='/Assets/Images/Activity/processing5.jpg' alt='Processing Unit' className='w-[540px] h-96 object-cover'/>
+                </SwiperSlide>
+                <SwiperSlide className='p-4 md:p-8'>
+                  <Image width={960} height={540} src='/Assets/Images/Activity/processing6.jpeg' alt='Processing Unit' className='w-[540px] h-96 object-cover'/>
+                </SwiperSlide>
+                <SwiperSlide className='p-4 md:p-8'>
+                  <Image width={960} height={540} src='/Assets/Images/Activity/processing7.jpeg' alt='Processing Unit' className='w-[540px] h-96 object-cover'/>
                 </SwiperSlide>
               </Swiper>
             </div>
