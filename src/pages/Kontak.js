@@ -28,7 +28,7 @@ const Kontak = () => {
               <div className='flex flex-col md:flex-row items-center'>
                 <AiIcons.AiFillPhone className='text-3xl md:text-5xl text-primary-400 mb-4 md:mb-0 md:mr-12' />
                 <div className='text-sm md:text-base'>
-                  <p>+6285257572142 EKO W.</p>
+                  <p>+6285257572142 / +628113783340 EKO W.</p>
                   <p>+628133386836 HAMAM</p>
                   <p>+628133491791 TONNY</p>
                 </div>
